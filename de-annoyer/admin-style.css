@@ -1,0 +1,92 @@
+/*
+ * You want to change the dashicon? Just choose one here:
+ * https://developer.wordpress.org/resource/dashicons/ 
+ * 
+ */
+
+/* AddThis */
+
+#adminmenu #toplevel_page_addthis_registration div.wp-menu-image img {
+	display: none;
+}
+#adminmenu #toplevel_page_addthis_registration div.wp-menu-image::before {
+	content: "\f132"; /* Plus */
+}
+
+
+/* Envira Gallery */
+
+#adminmenu #menu-posts-envira div.wp-menu-image img {
+	display: none;
+}
+#adminmenu #menu-posts-envira div.wp-menu-image::before {
+	content: "\f161"; /* Gallery */
+}
+
+
+/* Soundcloud is gold */
+
+#adminmenu #toplevel_page_soundcloud-is-gold-soundcloud-is-gold div.wp-menu-image img {
+	display: none;
+}
+#adminmenu #toplevel_page_soundcloud-is-gold-soundcloud-is-gold div.wp-menu-image::before {
+	content: "\f500"; /* Media Audio (127 or 492) */
+}
+
+
+/* Wordfence */
+
+#adminmenu #toplevel_page_Wordfence div.wp-menu-image img {
+	display: none;
+}
+#adminmenu #toplevel_page_Wordfence div.wp-menu-image::before {
+	content: "\f332"; /* Shield */
+}
+
+
+/* Newsletter */
+
+#adminmenu #toplevel_page_newsletter_main_index div.wp-menu-image img {
+	display: none;
+}
+#adminmenu #toplevel_page_newsletter_main_index div.wp-menu-image::before {
+	content: "\f465"; /* Mail */
+}
+
+
+/* All in one SEO */
+
+#adminmenu #toplevel_page_all-in-one-seo-pack-aioseop_class .wp-menu-image {
+	background: none;
+}
+#adminmenu #toplevel_page_all-in-one-seo-pack-aioseop_class div.wp-menu-image::before {
+	content: "\f238"; /* (239 or 184, 185) */
+}
+
+
+/* Post Types Order */
+
+.menu_pto {
+    display: none;
+}
+
+
+/* Contact Form DB */
+
+#adminmenu #toplevel_page_CF7DBPluginSubmissions .wp-menu-image {
+	background: none;
+}
+#adminmenu #toplevel_page_CF7DBPluginSubmissions div.wp-menu-image::before {
+	content: "\f468"; /* SOS */
+}
+
+
+/* Timeline Express */
+
+#adminmenu #menu-posts-te_announcements .wp-menu-image img {
+	display: none;
+}
+#adminmenu #menu-posts-te_announcements div.wp-menu-image::before {
+	content: "\f133"; /* Add page */
+}
+
